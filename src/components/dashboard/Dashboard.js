@@ -10,12 +10,14 @@ export class Dashboard extends Component {
   render() {
     return (
       <>
-      <div className="main">
-        <div className="glows">
-            <Navbar />
-            <Dashpanel />
-            <Rightpanel />
+      <div className="dashboard">
+        <div className="main">
+          <div className="glows">
+              <Navbar />
+              <Dashpanel />
+              <Rightpanel />
 
+          </div>
         </div>
       </div>
       </>

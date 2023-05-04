@@ -37,7 +37,7 @@ function Compacted({params}) {
                 value={params.barValue}
                 text={`${params.barValue} %`}
                  />
-                 <span>{params.title}</span>
+                 {/* <span>{params.title}</span> */}
             </div>
             <div className="detail">
                 <Png/>

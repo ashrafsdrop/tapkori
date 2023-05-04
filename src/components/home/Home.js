@@ -6,6 +6,9 @@ import Features from './Features'
 import Blogs from './Blogs'
 import Review from './Review'
 import Bcontactus from './Bcontactus'
+import "./assets/css/style.css"
+import "./assets/vendors/mdi/css/materialdesignicons.min.css"
+import "./assets/vendors/aos/css/aos.css"
 
 function home() {
   return (

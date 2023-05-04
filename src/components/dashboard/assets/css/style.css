@@ -11,11 +11,7 @@
   --activeItem: #f799a354;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
-}
+
 
 .main{
   background: linear-gradient(
