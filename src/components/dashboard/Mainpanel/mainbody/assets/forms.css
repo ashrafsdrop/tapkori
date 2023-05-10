@@ -1,7 +1,23 @@
+.Table {
+  background-color: white;
+  border-radius: 0.9rem;
+}
+
+.MuiBox-root{
+  padding-top: 0.9rem;
+  padding-left: 6rem;
+  padding-bottom: 0.4rem;
+}
+
 @media screen and (max-width: 1200px) {
     .Table {
       width: 170%;
       margin-top: 5rem;
+      background-color: white;
+      
+    }
+    .MuiBox-root{
+      padding-left: 1.5rem;
     }
   }
   
@@ -13,5 +29,6 @@
       flex-direction: column;
       align-items: center;
       width: 23rem;
+      background-color: white;
     }
   }

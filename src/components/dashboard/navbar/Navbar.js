@@ -3,6 +3,8 @@ import Logo from "../navbar/assets/images/TapKori.png"
 import {UilSignOutAlt, UilBars} from "@iconscout/react-unicons";
 import { SidebarData } from '../../Dummy/Dummy-data'
 import { motion } from "framer-motion";
+import { useNavigate, NavLink } from "react-router-dom";
+
 import "../navbar/assets/navbar.css"
 
 const Navbar = () => {
@@ -18,6 +20,11 @@ const Navbar = () => {
           left : '-60%'
         }
       }
+    const navigate = useNavigate();
+    const clicked = (index,)=>{
+        setActive(index)
+        
+    } 
 
   return (
     <>
@@ -40,12 +47,14 @@ const Navbar = () => {
                 return(
                     <div className={activated === index? 'menuitems actives': "menuitems"}
                     key={index}
-                    onClick={()=>setActive(index)}
+                    onClick={()=>clicked(index, item.heading)}
                     >
+                      <NavLink to={item.link}>
                         <item.icon />
                         <span>
                             {item.heading}
                         </span>
+                        </NavLink>
                     </div>
                 );
             })}
