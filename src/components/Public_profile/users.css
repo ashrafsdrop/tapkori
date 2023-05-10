@@ -6,8 +6,8 @@
 }
 
 .users{
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   border: 1px solid green;
   overflow: hidden;
 }
@@ -34,9 +34,17 @@
   box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
   background: #151515;
   border: 1px solid blue;
-  overflow: auto;
-  padding-right: 0px; /* exact value is given in JavaScript code */
-
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  display: flex;
+  /* flex-direction: column; */
+}
+.card::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+  width: 0;
+  height: 0;
+  background: transparent;
 }
 .card .ds-top {
   position: absolute;
@@ -100,8 +108,7 @@
   width: 40px;
 }
 .card .button {
-  position: absolute;
-  margin: auto;
+  position: relative;
   padding: 8px;
   top: 20px;
   right: 0;
