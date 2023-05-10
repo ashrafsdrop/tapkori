@@ -12,6 +12,7 @@ export class Users extends Component {
       <>
         <div className="users" style={{ backgroundColor: "rgba(0,0,0,0.88)" }}>
           <div className="card">
+            <div className="ds-top"></div>
             <div className="avatar-holder">
               <img
                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1820405/profile/profile-512.jpg?1533058950"
@@ -26,8 +27,12 @@ export class Users extends Component {
                 <p className="position">
                   ceon of ganfuuu dasdsd sadsad sadsad sadsad
                 </p>
-                
               </div>
+              <div className="button">
+              <a href="#" className="btn">
+                Follow <i className="fas fa-user-plus" />
+              </a>
+            </div>
 
             </div>
             
@@ -52,11 +57,7 @@ export class Users extends Component {
               </div>
             </div>
             <br />
-            <div className="button">
-              <a href="#" className="btn">
-                Follow <i className="fas fa-user-plus" />
-              </a>
-            </div>
+            
             <div className="ds-skill">
               <h6>
                 Skill <i className="fa fa-code" aria-hidden="true" />

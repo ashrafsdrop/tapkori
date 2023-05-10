@@ -5,11 +5,14 @@
   box-sizing: border-box;
 }
 
+html{
+  background-color: rgba(0,0,0,0.88);
+}
 .users{
-  /* height: 100%;
-  width: 100%; */
-  border: 1px solid green;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
+  background-color: #000000;
 }
 
 .position{
@@ -33,11 +36,10 @@
   border-radius: 10px;
   box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
   background: #151515;
-  border: 1px solid blue;
+  /* border: 1px solid rgb(129, 0, 0); */
   overflow-y: scroll;
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
-  display: flex;
   /* flex-direction: column; */
 }
 .card::-webkit-scrollbar { 
@@ -110,15 +112,16 @@
 .card .button {
   position: relative;
   padding: 8px;
-  top: 20px;
+  top: 210px;
   right: 0;
   bottom: 0;
   left: 0;
   width: inherit;
-  height: 40px;
+  height: fit-content;
   text-align: center;
   animation: fadeIn 2s ease-in;
   outline: none;
+  margin-bottom: 25px;
 }
 .card .button a {
   padding: 5px 20px;
