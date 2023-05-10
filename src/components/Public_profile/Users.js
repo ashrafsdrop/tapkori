@@ -39,19 +39,19 @@ export class Users extends Component {
             <div className="ds-info">
               <div className="ds pens">
                 <h6 title="Number of pens created by the user">
-                  <i className="fas fa-edit" />
+                  <a className="links" href="#"><i className="fas fa-broadcast-tower" /></a>
                 </h6>
                 <p>29</p>
               </div>
               <div className="ds projects">
                 <h6 title="Number of projects created by the user">
-                  <i className="fas fa-project-diagram" />
+                <a className="links" href="#"><i className="fas fa-project-diagram" /></a>
                 </h6>
                 <p>0</p>
               </div>
               <div className="ds posts">
                 <h6 title="Number of posts">
-                  <i className="fas fa-comments" />
+                <a className="links" href="#"><i className="far fa-paper-plane" /></a>
                 </h6>
                 <p>0</p>
               </div>
@@ -59,32 +59,32 @@ export class Users extends Component {
             <br />
             
             <div className="ds-skill">
-              <h6>
-                Skill <i className="fa fa-code" aria-hidden="true" />
+              <h6 className="titles">
+                Other Information
               </h6>
               <div className="skill html">
                 <h6>
-                  <i className="fab fa-html5" /> HTML5{" "}
+                  <i className="fas fa-phone" /> HTML5{" "}
                 </h6>
-                <div className="bar bar-html">
-                  <p>95%</p>
-                </div>
+                
               </div>
-              <div className="skill css">
+              <div className="skill css ds pens">
                 <h6>
-                  <i className="fab fa-css3-alt" /> CSS3{" "}
+                  <i className="fas fa-phone " /> CSS3{" "}
                 </h6>
-                <div className="bar bar-css">
-                  <p>90%</p>
-                </div>
+                
               </div>
               <div className="skill javascript">
                 <h6>
-                  <i className="fab fa-js" /> JavaScript{" "}
+                  <i className="fas fa-map-signs" /> JavaScript{" "}
                 </h6>
-                <div className="bar bar-js">
-                  <p>75%</p>
-                </div>
+                
+              </div>
+              <div className="skill javascript">
+                <h6>
+                  <i className="fas fa-at" /> JavaScript{" "}
+                </h6>
+                
               </div>
             </div>
           </div>

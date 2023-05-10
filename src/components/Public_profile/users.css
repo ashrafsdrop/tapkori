@@ -5,6 +5,20 @@
   box-sizing: border-box;
 }
 
+.links{
+  text-decoration: none;
+  color: crimson;
+}
+
+.titles{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.phoneicon{
+  size: 25px;
+}
+
 html{
   background-color: rgba(0,0,0,0.88);
 }
@@ -22,6 +36,11 @@ html{
 .posti{
   padding-left: 0.9rem;
   padding-right: 0.9rem;
+}
+
+.card .ds-skill .skill .fas{
+  color: crimson;
+  font-size:20px;
 }
 
 .card {
@@ -112,7 +131,7 @@ html{
 .card .button {
   position: relative;
   padding: 8px;
-  top: 210px;
+  top: 230px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -194,7 +213,7 @@ html{
 }
 .card .ds-skill .skill .fab {
   color: crimson;
-  font-size: 14px;
+  font-size: 20px;
 }
 .card .ds-skill .skill .bar {
   height: 5px;
